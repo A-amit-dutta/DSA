@@ -25,7 +25,7 @@ class Solution {
         int mx = arr[0];
         for(int i=1;i<n;i++){
             mx = Math.max(mx,arr[i]);
-            arr[i] = gcd(arr[i],mx);
+            arr[i] = gcd(mx,arr[i]);
         }
         Arrays.sort(arr);
             int i = 0,j = n-1;
