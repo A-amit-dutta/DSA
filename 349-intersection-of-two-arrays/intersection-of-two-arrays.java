@@ -1,6 +1,6 @@
 class Solution {
     public int[] intersection(int[] arr1, int[] arr2) {
-        // if(arr1.length>arr2.length) return intersection(arr2,arr1);
+        if(arr1.length>arr2.length) return intersection(arr2,arr1);
         int n1 = arr1.length , n2 = arr2.length;
         Set<Integer> st = new HashSet<>();
         Set<Integer> ans = new HashSet<>();
