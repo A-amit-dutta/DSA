@@ -7,12 +7,13 @@ class Solution {
         }
 
         int ans = Integer.MIN_VALUE;
-        for (int key : mpp.keySet()) {
-            if (key == mpp.get(key)) {
-                ans =  Math.max(ans,key);
+        for (Map.Entry<Integer, Integer> entry : mpp.entrySet()) {
+            if (entry.getKey().equals(entry.getValue())) {
+                ans = Math.max(ans, entry.getKey());
             }
         }
-        if(ans == Integer.MIN_VALUE) return -1;
+        if (ans == Integer.MIN_VALUE)
+            return -1;
         return ans;
     }
 }
