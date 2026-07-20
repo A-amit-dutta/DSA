@@ -1,10 +1,10 @@
 # 🚀 DSA Portfolio
 
-> A curated collection of my Data Structures & Algorithms solutions solved on **LeetCode** and **GeeksforGeeks**, automatically maintained using **CommitDSA**.
+> A curated collection of my Data Structures & Algorithms solutions solved on **LeetCode** automatically maintained using **CommitDSA**.
 
 ## 📌 About
 
-This repository documents my journey of strengthening problem-solving skills through consistent DSA practice. It contains solutions implemented in **Java**, organized by platform and difficulty level.
+This repository documents my journey of strengthening problem-solving skills through consistent DSA practice. It contains solutions implemented in **Java**, organized by difficulty level.
 
 ### 🎯 Goals
 
@@ -22,12 +22,7 @@ This repository documents my journey of strengthening problem-solving skills thr
 │   ├── Easy
 │   ├── Medium
 │   └── Hard
-│
-├── GFG
-│   ├── Easy
-│   ├── Medium
-│   └── Hard
-│
+
 └── README.md
 ```
 
@@ -58,7 +53,6 @@ This repository documents my journey of strengthening problem-solving skills thr
 
 - [x] Start DSA journey
 - [x] Solve first LeetCode problem
-- [x] Solve first GeeksforGeeks problem
 - [ ] 100+ Problems
 - [ ] 250+ Problems
 - [ ] 500+ Problems
